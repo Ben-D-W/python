@@ -8,7 +8,7 @@ class Television:
         self.status = False
         self.muted = False
         self.volume = self.MIN_VOLUME
-        self.channel = self.MAX_CHANNEL
+        self.channel = self.MIN_CHANNEL
 
     def power(self):
         if self.status:
